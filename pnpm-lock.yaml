@@ -133,8 +133,8 @@ catalogs:
       specifier: 1.0.16
       version: 1.0.16
     flatted:
-      specifier: 3.2.7
-      version: 3.2.7
+      specifier: 3.4.2
+      version: 3.4.2
     http-proxy-agent:
       specifier: 7.0.2
       version: 7.0.2
@@ -820,7 +820,7 @@ importers:
         version: 3.1.0
       flatted:
         specifier: 'catalog:'
-        version: 3.2.7
+        version: 3.4.2
       n8n-workflow:
         specifier: workspace:*
         version: link:../../workflow
@@ -1153,7 +1153,7 @@ importers:
         version: 0.14.0
       flatted:
         specifier: 'catalog:'
-        version: 3.2.7
+        version: 3.4.2
       lodash:
         specifier: 'catalog:'
         version: 4.17.23
@@ -2486,7 +2486,7 @@ importers:
         version: 5.0.2
       flatted:
         specifier: 'catalog:'
-        version: 3.2.7
+        version: 3.4.2
       formidable:
         specifier: 3.5.4
         version: 3.5.4
@@ -3263,7 +3263,7 @@ importers:
         version: 1.13.5
       flatted:
         specifier: 'catalog:'
-        version: 3.2.7
+        version: 3.4.2
       js-base64:
         specifier: 'catalog:'
         version: 3.7.2(patch_hash=bb02fdf69495c7b0768791b60ab6e1a002053b8decd19a174f5755691e5c9500)
@@ -3620,7 +3620,7 @@ importers:
         version: 2.0.5
       flatted:
         specifier: 'catalog:'
-        version: 3.2.7
+        version: 3.4.2
       highlight.js:
         specifier: catalog:frontend
         version: 11.8.0
@@ -4335,7 +4335,7 @@ importers:
         version: 2.2.2(eslint@9.29.0(jiti@2.6.1))
       flatted:
         specifier: 'catalog:'
-        version: 3.2.7
+        version: 3.4.2
       generate-schema:
         specifier: 2.6.0
         version: 2.6.0
@@ -11719,6 +11719,7 @@ packages:
 
   '@xata.io/client@0.28.4':
     resolution: {integrity: sha512-B02WHIA/ViHya84XvH6JCo13rd5h4S5vVyY2aYi6fIcjDIbCpsSLJ4oGWpdodovRYeAZy9Go4OhdyZwMIRC4BQ==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       typescript: 6.0.2
 
@@ -11729,6 +11730,7 @@ packages:
   '@xmldom/xmldom@0.8.10':
     resolution: {integrity: sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==}
     engines: {node: '>=10.0.0'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@zilliz/milvus2-sdk-node@2.5.7':
     resolution: {integrity: sha512-5gvIlllZCDkbcy1O9WjV4bZWgq+mlNekl5W4JcyO0HpyPcovoGF6cgWksl38kjXSl7WUSt1jWm2Q71Ua3r6foA==}
@@ -14687,11 +14689,11 @@ packages:
     resolution: {integrity: sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==}
     hasBin: true
 
-  flatted@3.2.7:
-    resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
-
   flatted@3.3.3:
     resolution: {integrity: sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==}
+
+  flatted@3.4.2:
+    resolution: {integrity: sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==}
 
   fn.name@1.1.0:
     resolution: {integrity: sha512-GRnmB5gPyJpAhTQdSZTSp9uaPSvl09KoYcMQtsB9rQoOmzs9dH6ffeccH+Z+cv6P68Hu5bC6JjRh4Ah/mHSNRw==}
@@ -21660,7 +21662,7 @@ packages:
     engines: {node: '>=18'}
 
   xlsx@https://cdn.sheetjs.com/xlsx-0.20.2/xlsx-0.20.2.tgz:
-    resolution: {tarball: https://cdn.sheetjs.com/xlsx-0.20.2/xlsx-0.20.2.tgz}
+    resolution: {integrity: sha512-+nKZ39+nvK7Qq6i0PvWWRA4j/EkfWOtkP/YhMtupm+lJIiHxUrgTr1CcKv1nBk1rHtkRRQ3O2+Ih/q/sA+FXZA==, tarball: https://cdn.sheetjs.com/xlsx-0.20.2/xlsx-0.20.2.tgz}
     version: 0.20.2
     engines: {node: '>=0.8'}
     hasBin: true
@@ -35968,9 +35970,9 @@ snapshots:
 
   flat@5.0.2: {}
 
-  flatted@3.2.7: {}
-
   flatted@3.3.3: {}
+
+  flatted@3.4.2: {}
 
   fn.name@1.1.0: {}
 
